@@ -7,7 +7,7 @@ font-family: 'Ubuntu', sans-serif;
 body{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    background-color:rebeccapurple;
+    background-color:white;
     color:#626262; 
     display: block;
         
@@ -15,7 +15,7 @@ body{
 .wraper{width: 1200px;
     margin: 0px auto;
     overflow: hidden;
-    background-color:white;
+   
     
 }
 span{
@@ -98,7 +98,7 @@ header{}
 
 /*start photodairy*/
 #photodairy{
-    overflow: hidden;
+    
 }
 .photodairy{
     width: 92%;
@@ -143,14 +143,12 @@ header{}
 /* end lifestyle*/
 
 /*start form*/
-#form{
-   
-    background-color: #F0F0F0;
-    padding: 66px 0px;
-}
+
 .form_contain{
-     width: 100%;
+    background-color: #F0F0F0;
+    width: 100%;
     text-align: center;
+    padding: 66px 0px;
     overflow: hidden;
 }
 .form{
@@ -202,13 +200,12 @@ header{}
 /*end load more*/
 /*start footer*/
 footer{
+    
+}
+.footer{
     background-color: #F0F0F0;
     color: #202020;
     min-height: 20px;
-    overflow: hidden;
-    display: block;
-}
-.footer{
     padding: 0px 60px;
     display: block;
     font-weight:400;
