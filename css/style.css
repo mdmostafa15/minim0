@@ -3,20 +3,22 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Ubuntu', sans-serif;
 */
-
+html{
+    min-width: 1220px;
+}
 body{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     background-color:#3C3F41;
     color:#626262; 
     display: block;
+    background: #fff;
         
 }
 .wraper{width: 1200px;
     margin: 0px auto;
     overflow: hidden;
-    background-color:#fff;
-   
+    
     
 }
 span{
@@ -144,7 +146,9 @@ header{}
 /* end lifestyle*/
 
 /*start form*/
-
+#form{
+     background-color: #F0F0F0; 
+}
 .form_contain{
     background-color: #F0F0F0;
     width: 100%;
@@ -201,10 +205,10 @@ header{}
 /*end load more*/
 /*start footer*/
 footer{
-    
+    background-color: #F0F0F0;
 }
 .footer{
-    background-color: #F0F0F0;
+    
     color: #202020;
     min-height: 20px;
     padding: 0px 60px;
